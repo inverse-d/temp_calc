@@ -1,15 +1,15 @@
 use std::io;
-// Ein Kommentar kann nicht schaden
+
 fn temp_ccalc(temp_f:i32) -> i32 {
     let temp_c = (temp_f - 32) * 5/9;
     return temp_c
 }
-// Noch ein Kommentar ist besser
+
 fn temp_fcalc(temp_c:i32) -> i32 {
     let temp_f = (temp_c * 9/5) + 32;
     return temp_f
 }
-// Ab hier geht es nicht mehr
+
 fn main() {
     println!("For Fahrenheit to Celsius press 'c', for Celsius to Fahrenheit press 'f'.");
     let mut calc = String::new();
