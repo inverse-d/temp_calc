@@ -2,12 +2,12 @@ use std::io;
 
 fn temp_ccalc(temp_f:i32) -> i32 {
     let temp_c = (temp_f - 32) * 5/9;
-    return temp_c
+    temp_c
 }
 
 fn temp_fcalc(temp_c:i32) -> i32 {
     let temp_f = (temp_c * 9/5) + 32;
-    return temp_f
+    temp_f
 }
 
 fn main() {
